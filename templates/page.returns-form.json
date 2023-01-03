@@ -2,13 +2,32 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1672766714e6c40470": {
+      "type": "apps",
+      "blocks": {
+        "4c1c635d-cda5-4884-8a8e-75e9343838fd": {
+          "type": "shopify:\/\/apps\/tommy-returns\/blocks\/test-block\/cb4e82f8-8b68-4992-b8f1-8937a35d0d1d",
+          "settings": {
+            "color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "4c1c635d-cda5-4884-8a8e-75e9343838fd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1672766714e6c40470"
   ]
 }
